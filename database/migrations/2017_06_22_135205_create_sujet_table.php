@@ -18,6 +18,8 @@ class CreateSujetTable extends Migration
             $table->string('titre')->index();
             $table->string('description')->index();
             $table->string('categorie_id')->index();
+            //$table->string('sujet_id')->index();
+            //$table->string('user_id')->index();
             $table->timestamps();
         });
     }
